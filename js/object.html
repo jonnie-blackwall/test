@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </hea
+  d>
+  <body>
+    <script>
+      const human = {
+        name: "Minthu",
+        age: 34,
+        color: "brown",
+        message: function () {
+          return "Name:" + this.name + "Age:" + this.age;
+        },
+      };
+
+      const person = {
+        firstName: "John",
+        lastName: "Doe",
+        id: 5566,
+        fullName: function () {
+          return this.firstName + " " + this.lastName;
+        },
+      };
+      console.log(human.message());
+    </script>
+  </body>
+</html>
